@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
         return (
             <footer className="site-footer">
               <div className="container container--lg">
-                hECHO POR{(_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null)) && (
+                🔥👨🏼‍💻 {(_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null)) && (
                 <div className="site-footer__nav">
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) && (
                   <ul className="site-footer__menu menu">
